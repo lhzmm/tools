@@ -10,5 +10,5 @@ test('验证精度减法',() => {
   expect(subtract(25,2,4)).toBe(19)
 })
 test('验证小数转分数',() => {
-  expect(floatToFraction(5.2)).toBe([26,5])
+  expect(floatToFraction(5.2)).toEqual([26,5])
 })
