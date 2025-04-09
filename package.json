@@ -1,22 +1,25 @@
 {
-  "name": "tools",
+  "name": "@lhzmm/tools",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "常用工具",
+  "main": "dist/index.js",
+  "publishConfig":{
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HongWaitying/tools.git"
+    "url": "git+https://github.com/lhzmm/tools.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "刘鸿",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HongWaitying/tools/issues"
+    "url": "https://github.com/lhzmm/tools/issues"
   },
-  "homepage": "https://github.com/HongWaitying/tools#readme",
+  "homepage": "https://github.com/lhzmm/tools#readme",
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
     "@types/jest": "^29.5.14",
