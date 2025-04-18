@@ -1,6 +1,6 @@
 {
   "name": "@lhzmm/tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "常用工具",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
